@@ -1,0 +1,19 @@
+Quick walk-through of the code explaining what does what, in bullet points.
+
+[config dir]
+ - middleware folder
+	* isAuthenticated.js: This is middleware for restricting routes a user is not allowed to visit if not logged in
+
+ - passport.js
+	* Contains the functions that have to do with user logins and handling correct/incorrect attempts
+[models]
+	* index.js: holds the functionality for the index page
+	* user.js: defines the users email and password formatting used to login to user accounts
+[public]
+ - js
+	* login.js: handles the gatherin of form data and then decides what to do with said data that was submitted via the login page
+	* members.js: This file just does a GET request to figure out which user is logged in
+  * Signup.js: Contains the instructions for things like user information forms, button functionality, what to do with email and password fields, posts to routes.
+[stylesheets]
+  * style.css: just a simple CSS
+login.html, members.html, signup.html are just basic html files.
